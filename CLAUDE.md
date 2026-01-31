@@ -38,7 +38,7 @@ The entire plugin is `main.lua`, which exports an `entry` function following the
 Keybinding in `keymap.toml`:
 ```toml
 [[manager.prepend_keymap]]
-on = ["c", "m"]
+on = ["c", "p"]
 run = "plugin marker"
 desc = "Convert PDF to Markdown"
 ```

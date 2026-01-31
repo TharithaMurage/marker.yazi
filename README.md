@@ -35,14 +35,14 @@ Add a keybinding to your `keymap.toml`:
 
 ```toml
 [[manager.prepend_keymap]]
-on = ["c", "m"]
+on = ["c", "p"]
 run = "plugin marker"
 desc = "Convert PDF to Markdown"
 ```
 
 ## How it works
 
-1. Hover over a `.pdf` file in Yazi and press `c` then `m`.
+1. Hover over a `.pdf` file in Yazi and press `c` then `p`.
 2. The plugin runs `marker_single` on the selected PDF.
 3. Marker creates a subdirectory named after the PDF containing the converted `.md` file and any extracted images.
 4. A notification confirms success or reports an error.
